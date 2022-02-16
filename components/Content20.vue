@@ -2,12 +2,12 @@
   <div class="">
     <!-- Section 1 -->
     <section class="w-full bg-blue-50 ccc" >
-      <div class="flex flex-col px-12 py-20 mx-auto max-w-7xl lg:flex-row">
+      <div class="flex flex-col px-12 py-20 sm:py-10 mx-auto max-w-7xl lg:flex-row">
         <div
           class="
             relative
             w-full
-            mb-10
+            lg:mb-10
             lg:text-left
             sm:text-center
             lg:w-1/2
@@ -92,21 +92,24 @@
             justify-center
             flex-shrink-0
             w-44
-            max-w-2xl
-            py-24
-            ml-10
+            max-w-4xl
+            lg:py-24
+            p-0
+            lg:ml-10
             bg-gray-100
             rounded-lg
             lg:w-1/2 lg:mx-0
             xl:w-full
+            sm:w-full
+            
           "
         >
           <!-- <h3 class="text-2xl font-bold text-gray-500">Intuitive User Flow</h3> -->
-          <div class="text-center px-5 ">
-            <p class="text-lg text-bold text-indigo-900">A Sneek Peak</p>
-            <h2 class="text-5xl font-bold text-indigo-900">Who are Everyday Group</h2>
-            <p class="text-gray-700 text-justify px-44">Everyday Group is an innovative company registered in Nigeria. We provide a one-stop location from where anyone can purchase insurance policies from several vendors in Nigeria</p>
-        <div>
+          <div class="text-center sm:px-0 lg:px-5">
+            <p class="text-xl text-bold text-indigo-900 sm:text-md">A Sneek Peak</p>
+            <h2 class="relative text-2xl font-bold text-indigo-900 xs:text-3xl sm:text-xl lg:text-4xl">Who are Everyday Group</h2>
+            <p class="text-gray-700 lg:text-justify lg:px-44 sm:text-md lg:text-lg">Everyday Group is an innovative company registered in Nigeria. We provide a one-stop location from where anyone can purchase insurance policies from several vendors in Nigeria</p>
+        <div class="mt-2">
           <a
           href="#"
           class="
@@ -123,6 +126,7 @@
             border border-transparent
             shadow
             hover:bg-indigo-600
+            
           "
           >Learn More</a>
         </div>
@@ -234,6 +238,7 @@ export default {};
 <style>
   .ccc{
     background-image: url("~/assets/unsplash_HGJnU_IGyKU.png");
-    background-size: auto;
+    background-repeat: no-repeat;
+
   }
 </style>

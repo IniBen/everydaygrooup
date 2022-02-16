@@ -1,20 +1,20 @@
 <template>
   <div>
-      <header-7 />
 
       <Nuxt />
 
-      <footer-9 />
+      <footer-7 />
   </div>
 </template>
 
 <script>
-import Footer9 from '../components/Footer9.vue'
-import Header7 from '../components/Header7.vue'
+import Footer7 from '../components/Footer7.vue'
+
+
 
 
 export default {
-  components: { Footer9, Header7 },
+  components: { Footer7 },
 
 }
 </script>

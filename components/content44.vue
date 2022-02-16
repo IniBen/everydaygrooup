@@ -33,6 +33,7 @@
             px-4
             leading-6
             text-center
+            sm:justify-center
             xl:flex-grow-0 xl:flex-shrink-0
             lg:flex-grow-0 lg:flex-shrink-0
           "
@@ -41,12 +42,13 @@
             class="
               box-border
               font-sans
-              text-4xl
+              text-2xl
               font-bold
               leading-tight
               text-indigo-900
-              sm:text-3xl
+              sm:text-2xl
               md:text-4xl
+              sm:justify-center
             "
           >
             Distributorships
